@@ -1,0 +1,145 @@
+	.user_message_div{
+	float: right;
+	margin-left: 25px;
+	background-color: lightblue;
+	padding: 10px;
+	width: auto;
+	max-width: 60%;
+	border-radius: 10px;
+	}
+
+	.user_contact_message_div{
+	float: left;
+	margin-right: 25px;
+	background-color: #00AFF0;
+	padding: 10px;
+	color: white;
+	width: auto;
+	max-width: 60%;
+	border-radius: 10px;
+	}
+
+	.user_contact_quote{
+	width: 100%;
+	display: inline-block;
+	color: #cccccc;
+	}
+
+	.user_login_div{
+	float: right;
+	width: 35%;
+	margin-top: 7px;
+	}
+
+	.user_login_div a{
+	padding: 0px 10px;
+	font-size: 14px;
+	}
+
+	.user_login_div a:hover{
+	text-decoration: underline;
+	}
+
+	.user_login_div span {
+	margin-left: 2%;
+	}
+
+	.user_data_outter_div{
+	border-bottom: 1px solid #008080;
+	}
+
+
+	.user_profile_div label{
+	height: 1px;
+	display: inline-block;
+	width: 100%;
+	}
+
+	.user_profile_row{
+	width: 100%;
+	color: #008080;
+	display: block;
+	}
+
+	.all_user_contacts_overflow{
+	overflow: auto;
+	height: 325px;
+	background: #f7f7f7;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px 5px;
+	border: 1px solid #444;
+	}
+
+	.all_user_contacts{
+	display: inline-block;
+	margin-left: 0px !important;
+	border-bottom: 1px solid #cccccc;
+	height: auto;
+	line-height: 30px;
+	}
+
+	.all_user_contacts span{
+	float: left;
+	margin-left: 5px;
+	}
+
+
+		.user_online_status{
+	margin-top: 6px;
+	display: inline-block;
+	}
+
+	.user_data_break_long_status{
+	width: 100%;
+	overflow-wrap: break-word;	
+	}
+
+	.user_contact_email_word_break{
+	word-break: break-all;
+	}
+
+	.user_chat_status_update_btn_div{
+	position: absolute;
+	display: grid;
+	margin: 0px 3%;
+	border: 2px solid #868282;
+	width: 100px;
+	background-color: #cccccc;
+	text-align: left
+	}
+
+	.user_chat_status_update_btn{
+	float: left;
+	padding: 5px;
+	border: 1px solid #868282;
+	}
+
+	.user_chat_status_update_btn_div p{
+	display: inline-flex;
+	margin-left: 5px;
+	}
+
+		.user_chat_status_update_btn:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: underline;
+	}
+
+	.user_contact_busy_message{
+	color: #cccccc;
+	font-size: 12px;
+	}
+
+	.user_contact_profile_chat_status{
+	width: 100px;
+	}
+
+	.user_contact_profile_chat_status div{
+	margin-top: 0px;
+	}
+
+	.user_contact_profile_chat_status p{
+	display: inline-block;
+	margin-left: 7px;
+	}

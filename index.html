@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instant Chat</title>
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/btn.css">
+	<link rel="stylesheet" href="css/contacts.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/user.css">
+</head>
+<body >
+	<app>
+		
+	</app>
+
+   	<!-- Libraries used -->
+   	<script type="text/javascript" src="js/riot+compiler.min.js"></script>
+	<script type="text/javascript" src="js/firebase.js"></script>
+	<script type="text/javascript" src="js/firebase_creds.js"></script>
+	<!-- Custom Tags -->
+	<script type="riot/tag" src="tags/app.tag"></script>
+	<script type="riot/tag" src="tags/modal.tag"></script>
+	<script type="riot/tag" src="tags/login-form.tag"></script>
+	<script type="riot/tag" src="tags/signin-help-form.tag"></script>
+	<script type="riot/tag" src="tags/signup-form.tag"></script>
+	<script type="riot/tag" src="tags/header.tag"></script>
+	<script type="riot/tag" src="tags/app-nav.tag"></script>
+	<script type="riot/tag" src="tags/user-data.tag"></script>
+	<script type="riot/tag" src="tags/all-contacts.tag"></script>
+	<script type="riot/tag" src="tags/pending-requests.tag"></script>
+	<script type="riot/tag" src="tags/blocked-contacts.tag"></script>
+	<script type="riot/tag" src="tags/app-main-content.tag"></script>
+	<!-- Index Script -->
+	<script>
+			riot.mount('app');
+			riot.mount('modal');
+			riot.mount('header');
+		    riot.mount('login-form');
+		    riot.mount('signin-help-form');
+		    riot.mount('signup-form');
+		    riot.mount('app-nav');
+		    riot.mount('app-main-content');
+	</script>
+</body>
+</html>

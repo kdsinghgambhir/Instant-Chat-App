@@ -1,0 +1,304 @@
+	.login_form_outter_div
+	{
+	text-align: center;
+	margin: 25px auto ;
+	border: 10px solid #444444;
+	width: 500px;
+	background-color: white;
+	}
+
+	.signup_form_outter_div
+	{
+	text-align: center;
+	margin: 25px auto;
+	border: 10px solid #444444;
+	width: 500px;
+	background-color: white;
+	}
+
+	.form_row_header
+	{
+	padding: 0px 0px;
+	background-color: #F4A460;
+	font-size: 25px;
+	}
+
+	.form_row_header label
+	{
+	color: black;
+	font-weight: bold;
+	font-family: Times New Roman;
+	}
+
+	.form_row_input
+	{
+	width: 90%;
+	padding: 2%;
+	border: none;
+	border-bottom: 2px solid #dcdcdc;
+	font-size: 14px;
+	}
+
+	.form_row_input:hover, .form_row_input:focus
+	{
+	border-bottom: 2px solid #0095ff;
+	}
+
+	.form_row
+	{
+	margin: 4%;
+	}
+
+	.form_error
+	{
+	color: red;
+	}
+
+	.signin_help_form_outter_div
+	{
+	text-align: center;
+	margin: auto;
+	border: 10px solid #444444;
+	width: 32%;
+	margin-top: 50px;
+	background-color: white;
+	}
+	
+	.a_href
+	{
+	color: #0095ff;
+	}
+
+	.a_href_resend_verification_link
+	{
+	width: 200px !important;
+	}
+
+	.a_href_change_password
+	{
+	width: 150px !important;
+	}
+
+	.a_href:hover
+	{
+	text-decoration: underline;
+	}
+
+	.a_href_with_border
+	{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	}
+
+	.a_href_with_border:hover
+	{
+	color: #0095ff;
+	border: 1px solid #0095ff;
+	text-decoration: underline;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+
+	.has_no_data
+	{
+	font-size: 15px;
+	color: #cccccc;
+	}
+
+	.change_password_form_input
+	{
+	padding: 10px;
+	font-size: 15px;
+	width: 175px;
+	border-radius: 5px
+	}
+
+	.profile_detail_form_input
+	{
+	padding: 10px;
+	font-size: 15px;
+	width: 40%;
+	border-radius: 5px
+	}
+
+	.profile_detail_form_textarea
+	{
+	padding: 10px;
+	font-size: 15px;
+	width: 80%;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: initial;
+	border-image: initial;
+	resize: none;
+	}
+
+	.contact_online_status
+	{
+	margin-top: 6px;
+	float: left;
+	display: inline-block;
+	}
+
+	.green
+	{
+	background-color: limegreen;
+	border: 5px solid limegreen;
+	border-radius: 20px;
+	width: 10px;
+	height: 10px;
+	}
+
+	.red
+	{
+	background-color: red;
+	border: 5px solid red;
+	border-radius: 20px;
+	width: 10px;
+	height: 10px;
+	}
+
+	.grey
+	{
+	background-color: white;
+	border: 5px solid grey;
+	border-radius: 20px;
+	width: 10px;
+	height: 10px;
+	}
+
+	.margin-50
+	{
+	margin: 50px;
+	}
+
+	.margin-20
+	{
+	margin: 20px;
+	}
+
+	.margin-top-20
+	{
+	margin-top: 20px;
+	}
+
+	.margin-right-20
+	{
+	margin-right: 20px;
+	}
+
+	.margin-left-20
+	{
+	margin-left: 20px;
+	}
+
+	.margin-bottom-20
+	{
+	margin-bottom: 20px;
+	}
+
+	.margin10
+	{
+	margin: 10px;
+	}
+
+	.margin-top-10
+	{
+	margin-top: 10px;
+	}
+
+	.margin-right-10
+	{
+	margin-right: 10px;
+	}
+
+	.margin-left-10
+	{
+	margin-left: 10px;
+	}
+
+	.margin-bottom-10
+	{
+	margin-bottom: 10px;
+	}
+
+	.font-24
+	{
+	font-size: 24px;
+	}
+
+	.font-16
+	{
+	font-size: 16px;
+	}
+
+	.font-14
+	{
+	font-size: 14px;
+	}
+
+	.font-12
+	{
+	font-size: 12px;
+	}
+
+	.font-bold
+	{
+	font-weight: bold;
+	}
+
+	p
+	{
+	margin: 0px;
+	padding: 0px;
+	}
+
+	.text-right
+	{
+	text-align: right;
+	}
+
+	.color-white
+	{
+	color: white;
+	}
+
+	.profile_detail_break_long_status
+	{
+	width: 80%;
+	overflow-wrap: break-word;
+	}
+
+	.current_chat_status:hover
+	{
+	border: 1px solid black;
+	cursor: pointer;
+	}
+
+	.cursor-pointer:hover
+	{
+	cursor: pointer;
+	}
+
+	.all_contacts_search_input
+	{
+    width: 90%;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	}
+
+	.pending_requests_count
+	{
+	margin-right: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+    color: #cccccc;
+    background-color: white;
+	}

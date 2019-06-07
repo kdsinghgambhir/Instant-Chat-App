@@ -1,0 +1,149 @@
+	.all_contacts_outter_div
+	{
+	border-bottom: 1px solid #000;
+	}
+
+	.contact_row_header
+	{
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	}
+
+	.contact_row
+	{
+	margin-bottom: 10px;
+	width: 90%;
+	margin-left: 3%;
+	}
+
+	.contact_row input
+	{
+	width: 75%;
+	padding: 2%;
+	}
+
+	.contact_row_username:hover
+	{
+	cursor: pointer;
+	}
+
+	.error{
+	color: red;
+	}
+
+	.add_contact_row
+	{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+    height: 34px;
+	}
+
+	.clear
+	{
+	clear:both
+	}
+
+	.pending_request_outter_div
+	{
+	border-bottom: 1px solid #000;
+	}
+	
+	.pending_request_row_header
+	{
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	}
+	
+	.pending_request_row
+	{
+	margin-bottom: 10px;
+	width: 90%;
+	margin-left: 3%;
+	}
+
+	.all_pending_request_overflow
+	{
+	overflow: auto;
+	height: 378px;
+	background: #f7f7f7;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px 5px;
+	border: 1px solid #444;
+	}
+
+	.all_pending_request
+	{
+	display: inline-block;
+	margin-left: 0px !important;
+	border-bottom: 1px solid #cccccc;
+	height: auto;
+	line-height: 30px;
+	}
+
+	.all_pending_request span
+	{
+	float: left;
+	margin-left: 5px;
+	}
+
+	.contact_option
+	{
+	float:right;
+	width: 5%;
+	margin-left: 5px;
+	}
+
+	.contact_option img
+	{
+	width: 100%;
+	}
+
+	.contact_new_message
+	{
+	width: 10% !important;
+	}
+
+	
+	.blocked_contacts_row
+	{
+	margin-bottom: 10px;
+	width: 90%;
+	margin-left: 3%;
+	}
+	
+	.blocked_contacts_row_header
+	{
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	}
+
+	.all_blocked_contacts_overflow
+	{
+	overflow: auto;
+	height: 378px;
+	background: #f7f7f7;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px 5px;
+	border: 1px solid #444;
+	}
+
+	.all_blocked_contacts
+	{
+	display: inline-block;
+	margin-left: 0px !important;
+	border-bottom: 1px solid #cccccc;
+	height: auto;
+	line-height: 30px;
+	}
+
+	.all_blocked_contacts span
+	{
+	float: left;
+	margin-left: 5px;
+	}

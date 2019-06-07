@@ -1,0 +1,63 @@
+
+
+1.add id around all outer divs
+2. #user-data-id .outter_div{
+	         border-bottom: 1px solid #000;
+	    } all-contacts pending-requests
+3. user-profil tag
+4. home page button in header before view profile
+5. change password tag remove back change button style
+6. login form   sign up form
+  width: 40%;
+    margin-top: 50px;
+    padding: 30px 0px;
+
+//# 7. pending requests, blocked contacts screenn in center
+
+8. sign up : got to login -> "already a member, login" below button
+
+
+
+
+9. status: Away, busy, invisible
+
+10. user contact details
+
+//* 11. user is busy ;"Ram is busy at the moment"
+
+12. login screen seen on page reload.
+
+    margin-right: 25px;
+    background-color: #00AFF0;
+    /* padding: 5px 10px; */
+    /* width: 30%; */
+    /* color: white; */
+    /* margin-left: 25px; */
+    /* background-color: lightblue; */
+    padding: 10px 10px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+
+13. view profile-> my profile your profile -> my profile
+
+14. user status to status/Mood. add text area
+
+15. add chat status
+
+16. modal button design
+
+17. close button image message box
+
+
+enhancements: on busy status, user contact will get a message. user is busy ;"Ram is busy at the moment"
+				away status
+				invisible
+
+
+
+18. Search Contacts
+
+
+
+

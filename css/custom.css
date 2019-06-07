@@ -1,0 +1,190 @@
+
+	body
+	{
+	font-family: arial;
+	margin: 0;
+	background: burlywood;
+	}
+
+	.app_nav_id_outter_div
+	{
+	text-align: center;
+	margin: 0;
+	width: 25%;
+	float: left;
+	background-color: #F4A460;
+	border: 5px;
+	}
+
+	#login-form-image	
+	{
+		background: url('/img/side.jpg') no-repeat;
+		background-size: 250px;
+	  	width: 100%;
+  		height: 250px;
+  		align-items: center;
+	}
+
+	.app_main_content_outter_div
+	{
+	float: right;
+	width: 75%;
+	padding-top: 50px;
+	}
+
+	.app_main_content_inner_div
+	{
+	width: 75%;
+	padding: 0px 30px 0px 30px;
+	margin: 0px auto;
+	border: 1px solid #cccccc;
+	background-color: white;
+	}
+
+
+	.chat_window_messages
+	{    
+	overflow-y: auto;
+	height: 300px;	
+	}
+
+	.message_input_div
+	{
+	display: flex;
+	padding: 2%;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+	}
+
+	.message_input_div textarea
+	{
+	padding: 2%;
+	width: 70%;
+	height: 40px;
+	font-size: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+	}
+
+	.message_div
+	{
+	display: block;
+	width: 98%;
+	padding: 1%;
+	}
+
+	.message_bubble_text
+	{
+	word-break: break-word;
+	}
+
+	.welcome_div
+	{
+	text-align: left;
+	}
+
+	.view_profile_div
+	{
+	text-align: left;	
+	}
+
+	.change_password_div
+	{
+	text-align: left;	
+	}
+
+	.view_profile_div h3
+	{
+	border-bottom: 1px solid #cccccc;
+	line-height: 40px;
+	}
+
+	.change_password_div h3
+	{
+	border-bottom: 1px solid #cccccc;
+	line-height: 40px;
+	}
+
+	.profile_detail_row
+	{
+	margin-top: 2%;
+	display: inline-flex;
+	width: 100%;
+	}
+
+	.profile_detail_row label
+	{
+	display: inline-block;
+	width: 15%;
+	}
+
+	.change_password_detail_row
+	{
+	margin-top: 2%;
+	display: block;
+	width: 100%;
+	}
+
+	.change_password_detail_row label
+	{
+	display: inline-block;
+	width: 30%;
+	}
+	
+	.view_profile_back
+	{
+	display: block;
+	width: 100%;
+	}
+
+	.view_profile_back a
+	{
+	float: left;
+	}
+
+	.change_profile_back
+	{
+	display: block;
+	width: 100%;
+	}
+
+	.change_profile_back a
+	{
+	float: left;
+	}
+
+	.error
+	{
+	color: red;
+	}
+
+	.header_id_outter_div
+	{
+	text-align: center;   
+	background-color: #F5FFFA;
+	color:black;
+	padding: 10px;
+	}
+
+	.app_title
+	{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Times New Roman";
+	}
+
+	.app_loading
+	{
+	display: block;
+	width: 100%;
+	margin-top: 10%;
+	text-align: center;
+	}   
+	
+	.app_loading img
+	{
+	width: 20%;
+	}
